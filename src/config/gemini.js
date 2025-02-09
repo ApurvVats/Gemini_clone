@@ -4,7 +4,10 @@
  *
  * $ npm install @google/generative-ai
  */
-
+//🔥 Yeh file Gemini API se connect hoti hai, user input ko AI ke pass bhejti hai, response leti hai, aur return karti hai.
+//🔥 Temperature, topP, aur max tokens jese settings AI ke response ka behavior control karte hain.
+//🔥 Chat session start hota hai, aur prompt ka response formatted text ke form me milta hai.
+//Simple Words: Yeh file Gemini AI ke saath chat karne ka bridge hai jo backend me kaam karta hai!
 import {
     GoogleGenerativeAI,
     HarmCategory,

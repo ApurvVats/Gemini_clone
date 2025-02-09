@@ -1,3 +1,9 @@
+//✅ Global State Management – No need for prop drilling.
+//✅ Handles API Calls – Calls run() function to get AI-generated responses.
+//✅ Response Formatting – Adds bold text (<b>) and line breaks (<br>) for better readability.
+//✅ Typewriter Effect – Words appear one by one with a smooth delay.
+//✅ Chat History – Stores previous prompts for easy reference.
+//✅ New Chat Functionality – Resets everything for a fresh conversation.
 import { createContext } from "react";
 import React, { useState } from 'react';
 import run from "../config/gemini"; // Assuming runChat is the correct function
